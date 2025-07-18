@@ -1,0 +1,8 @@
+path: datasett_split    
+train: train/images     
+val:   test/images      
+nc:    3                
+names:                  
+  - Student_Name
+  - School
+  - marks
