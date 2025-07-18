@@ -1,5 +1,5 @@
 import os
-folder_path = "data"
+folder_path = "raw_data(images)"
 
 image_files = sorted(os.listdir(folder_path))
 
