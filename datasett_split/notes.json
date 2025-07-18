@@ -1,0 +1,21 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "School"
+    },
+    {
+      "id": 1,
+      "name": "Student_Name"
+    },
+    {
+      "id": 2,
+      "name": "marks"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
