@@ -1,26 +1,26 @@
-# Marksheet Processor 📟🔍
+# Marksheet Processor 
 
 A Python-based deep learning project to **automatically detect and parse text from marksheet images** using **YOLOv8**, **custom dataset annotation**, and **OCR techniques**. This system processes scanned student marksheets and extracts structured tabular data, ready for analysis or automation.
 
 ---
 
-## 📸 Output Demo
+## Approach Visualization
 
 ![Output Screenshot](https://github.com/pratham-asthana/Marksheet_Processor/blob/main/SS.png)
 
 ---
 
-## 🧠 Features
+## Features
 
-* 🧾 Object detection on scanned marksheet fields using YOLOv8.
-* 🔤 Text recognition using OCR tools (e.g., Tesseract or PaddleOCR).
-* 🧪 Custom dataset training and label splitting utilities.
-* 📂 Organized data pipelines: raw → labeled → split.
-* 📊 Result visualization and verification support.
+*  Object detection on scanned marksheet fields using YOLOv8.
+*  Text recognition using OCR tools (e.g., Tesseract or PaddleOCR).
+*  Custom dataset training and label splitting utilities.
+*  Organized data pipelines: raw → labeled → split.
+*  Result visualization and verification support.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 Marksheet_Processor/
@@ -43,15 +43,15 @@ Marksheet_Processor/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
-### ✅ Prerequisites
+### Prerequisites
 
 * Python 3.8+
 * PyTorch and Ultralytics YOLOv8
 * OpenCV, Pandas, Matplotlib
 
-### 📦 Install dependencies
+### Install dependencies
 
 ```bash
 pip install ultralytics opencv-python pandas matplotlib
@@ -59,7 +59,7 @@ pip install ultralytics opencv-python pandas matplotlib
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1. Train the model
 
@@ -76,7 +76,7 @@ Run the inference code in `Marksheet_parsing.ipynb` to detect and extract text f
 
 ---
 
-## 📁 Dataset Preparation
+## Dataset Preparation
 
 * Place raw images in `raw_data(images)/`
 * Annotate them using tools like Roboflow or CVAT
@@ -85,13 +85,7 @@ Run the inference code in `Marksheet_parsing.ipynb` to detect and extract text f
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**. Feel free to use and modify for educational or commercial purposes.
-
----
-
-## 👨‍💻 Author
+## Author
 
 **Pratham Asthana**
 📧 [prathamasthana04@gmail.com](mailto:prathamasthana04@gmail.com)
@@ -99,6 +93,6 @@ This project is licensed under the **MIT License**. Feel free to use and modify 
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 If you find bugs or want to suggest improvements, feel free to open issues or submit pull requests.
